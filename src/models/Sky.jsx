@@ -1,16 +1,16 @@
-import { useGLTF } from '@react-three/drei'
-import React from 'react'
+import { useGLTF } from "@react-three/drei";
+import React from "react";
 
-import skyScene from "../assets/3d/sky.glb"
+import skyScene from "../assets/3d/sky.glb";
 
 const Sky = () => {
- const sky = useGLTF(skyScene);
+  const sky = useGLTF(skyScene);
 
   return (
-   <mesh>
-     <primitive object={sky.scene} />
+    <mesh>
+      <primitive object={sky.scene} />
     </mesh>
-  )
-}
+  );
+};
 
-export default Sky
+export default Sky;
