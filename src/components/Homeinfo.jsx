@@ -7,8 +7,13 @@ const renderContent = {
   4: <h1>4</h1>,
 };
 
-const Homeinfo = () => {
-  return <div>Homeinfo</div>;
+const InfoBox = ({ text, link, btnText }) => (
+ <div>
+
+</div>);
+
+const Homeinfo = ({ currentStage }) => {
+  return renderContent[currentStage] || null;
 };
 
 export default Homeinfo;
