@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Contact = () => {
   const [form, setForm] = useState({
     name: '', email: '', message: ''
   })
+
+  const handleChange = () = {};
 
   return (
     <section className="relative flex lg:flex-row flex-col max-container">
@@ -23,7 +25,7 @@ const Contact = () => {
               className='input'
               placeholder='X-Man'
               required
-              value={}
+              value={form.change}
             />
           </label>
         </form>
