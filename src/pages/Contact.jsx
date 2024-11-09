@@ -31,6 +31,8 @@ const Contact = () => {
         setIsLoading(false);
         // TODO: Show success message
         // TODO: Hide an alert
+
+        setForm({ name: "", email: "", message: "" });
       })
       .catch((error) => {
         setIsLoading(false);
