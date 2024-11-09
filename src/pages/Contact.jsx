@@ -33,6 +33,8 @@ const Contact = () => {
         // TODO: Hide an alert
 
         setForm({ name: "", email: "", message: "" });
+        setForm({ name: "", email: "", message: "" });
+        setForm({ name: "", email: "", message: "" });
       })
       .catch((error) => {
         setIsLoading(false);
