@@ -32,9 +32,7 @@ const Contact = () => {
         // TODO: Show success message
         // TODO: Hide an alert
 
-        setForm({ name: "", email: "", message: "" });
-        setForm({ name: "", email: "", message: "" });
-        setForm({ name: "", email: "", message: "" });
+        setForm({ name: "", email: "", message: "" }); 
       })
       .catch((error) => {
         setIsLoading(false);
