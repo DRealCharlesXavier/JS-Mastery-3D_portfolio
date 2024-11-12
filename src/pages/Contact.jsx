@@ -2,6 +2,8 @@ import React, { Suspense, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 
+import Loader from "../components/Loader"
+
 import Fox from '../models/Fox'
 
 const Contact = () => {
@@ -115,8 +117,12 @@ const Contact = () => {
             position: [0, 0, 5]
           }}
         >
-          <Suspense fallback={null}>
-            <Fox />
+          <Suspense fallback={<Loader />}>
+            <Fox
+              position={[0.5, 0.35, 0]}
+              rotation={[12, 0, 0]}
+              scale={[0.5, 0.5, 0.5]}
+            />
           </Suspense>
         </Canvas>
       </div>
