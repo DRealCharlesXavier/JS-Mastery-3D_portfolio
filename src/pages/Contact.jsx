@@ -12,6 +12,8 @@ const Contact = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [currentAnimation, setCurrentAnimation] = useState('idle')
 
+  const { alert, showAlert, hideAlert } = useAlert()
+
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
