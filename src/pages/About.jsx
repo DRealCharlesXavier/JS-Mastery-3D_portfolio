@@ -1,5 +1,8 @@
-import React from 'react'
-import { skills } from '../constants'
+import { VerticalTimeline,  VerticalTimelineElement} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+
+
+import { skills, experiences } from "../constants";
 
 const About = () => {
   return (
@@ -40,15 +43,26 @@ const About = () => {
       <div className="py-16">
         <h3 className="subhead-text">Work Experience</h3>
         <p className="mt-5 flex flex-col gap-3 text-slate-500">
-          I've worked with all sorts of companies, leveling up my skills and teaming up with smart people. Here's the rundown: 
+          I've worked with all sorts of companies, leveling up my skills and
+          teaming up with smart people. Here's the rundown:
         </p>
       </div>
 
-      <div className='mt-12 flex'>
-          
+      <div className="mt-12 flex">
+        <VerticalTimeline>
+          {experiences.map((experience) => (
+            <VerticalTimelineElement>
+              <div>
+                <h3 className="text-black text-xl font-poppins font-semibold">
+                  {experience.title}
+                </h3>
+              </div>
+            </VerticalTimelineElement>
+          ))}
+        </VerticalTimeline>
       </div>
     </section>
   );
-}
+};
 
-export default About
+export default About;
