@@ -1,6 +1,8 @@
-import { VerticalTimeline,  VerticalTimelineElement} from "react-vertical-timeline-component";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-
 
 import { skills, experiences } from "../constants";
 
@@ -56,6 +58,9 @@ const About = () => {
                 <h3 className="text-black text-xl font-poppins font-semibold">
                   {experience.title}
                 </h3>
+                <p className="text-black-500 font-medium font-base">
+                  {experience.company_name}
+                </p>
               </div>
             </VerticalTimelineElement>
           ))}
