@@ -53,7 +53,15 @@ const About = () => {
       <div className="mt-12 flex">
         <VerticalTimeline>
           {experiences.map((experience) => (
-            <VerticalTimelineElement>
+            <VerticalTimelineElement
+              key={experience.company_name}
+              date={experience.date}
+              iconStyle={
+                <div>
+                  <img src="" alt="" />
+                </div>
+              }
+            >
               <div>
                 <h3 className="text-black text-xl font-poppins font-semibold">
                   {experience.title}
@@ -64,7 +72,11 @@ const About = () => {
               </div>
 
               <ul className="my-5 list-disc ml-5 space-y-2">
-                {experience.points.map((point, index) => ())}
+                {experience.points.map((point, index) => (
+                  <li key={`experience-point-${index}`} className="text-black-500/50 font-normal pl-1 text-sm">
+                    {point}
+                  </li>
+                ))}
               </ul>
             </VerticalTimelineElement>
           ))}
