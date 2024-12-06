@@ -56,8 +56,8 @@ const About = () => {
             <VerticalTimelineElement
               key={experience.company_name}
               date={experience.date}
-              iconStyle={
-                <div>
+              icon={
+                <div className="flex justify-center items-center w-full h-full">
                   <img
                     src={experience.icon}
                     alt={experience.company_name}
@@ -65,6 +65,13 @@ const About = () => {
                   />
                 </div>
               }
+              iconStyle={{ background: experience.iconBg }}
+              contentStyle={{
+                borderBottom: '8px',
+                borderStyle: 'solid',
+                borderBottomColor: experience.iconBg,
+                boxShadow: 'none',
+              }}
             >
               <div>
                 <h3 className="text-black text-xl font-poppins font-semibold">
