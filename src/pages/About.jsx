@@ -58,7 +58,11 @@ const About = () => {
               date={experience.date}
               iconStyle={
                 <div>
-                  <img src="" alt="" />
+                  <img
+                    src={experience.icon}
+                    alt={experience.company_name}
+                    className="w-[60%] h-[60%] object-contain"
+                  />
                 </div>
               }
             >
