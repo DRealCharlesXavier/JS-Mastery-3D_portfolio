@@ -5,6 +5,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 import { skills, experiences } from "../constants";
+import CTA from "../components/CTA";
 
 const About = () => {
   return (
@@ -67,24 +68,30 @@ const About = () => {
               }
               iconStyle={{ background: experience.iconBg }}
               contentStyle={{
-                borderBottom: '8px',
-                borderStyle: 'solid',
+                borderBottom: "8px",
+                borderStyle: "solid",
                 borderBottomColor: experience.iconBg,
-                boxShadow: 'none',
+                boxShadow: "none",
               }}
             >
               <div>
                 <h3 className="text-black text-xl font-poppins font-semibold">
                   {experience.title}
                 </h3>
-                <p className="text-black-500 font-medium font-base" style={{margin:0}}>
+                <p
+                  className="text-black-500 font-medium font-base"
+                  style={{ margin: 0 }}
+                >
                   {experience.company_name}
                 </p>
               </div>
 
               <ul className="my-5 list-disc ml-5 space-y-2">
                 {experience.points.map((point, index) => (
-                  <li key={`experience-point-${index}`} className="text-black-500/50 font-normal pl-1 text-sm">
+                  <li
+                    key={`experience-point-${index}`}
+                    className="text-black-500/50 font-normal pl-1 text-sm"
+                  >
                     {point}
                   </li>
                 ))}
@@ -93,6 +100,10 @@ const About = () => {
           ))}
         </VerticalTimeline>
       </div>
+
+      <hr className="border-slate-200" />
+
+      <CTA />
     </section>
   );
 };
