@@ -10,9 +10,13 @@ Rotating Island: A fully interactive 3D island that rotates to reveal different 
 
 **Dynamic Sections**:
 About Me: A personal introduction with my journey as a developer.
+
 Projects: A showcase of my work with descriptions and links.
+
 Contact Info: Easy ways to get in touch, like email, social links, or a contact form.
+
 Engaging Interactions: Hover effects, smooth animations, and click events for a delightful experience.
+
 Responsive Design: Built for all devices—enjoy the experience on desktop, tablet, or mobile.
 
 🛠️ **Tech Stack**
