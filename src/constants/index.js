@@ -111,29 +111,29 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Manufacturing Engineering Assistant",
+    company_name: "WILSON Nigeria Limited",
     icon: starbucks,
     iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
+    date: "Jan 2018 - Jul 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed, fabricated, and assembled replacement parts for factory machinery to enhance operational efficiency and reduce downtime.",
+      "Collaborated with senior engineers to analyze mechanical failures and develop innovative solutions for critical equipment repairs and upgrades.",
+      " Operated specialized tools and machinery, including lathes, welding equipment, and CNC machines, to craft high-precision components for factory systems.",
+      "Provided on-site support for troubleshooting mechanical issues in production lines, minimizing delays in manufacturing schedules.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Oil and Gas Operations Intern",
+    company_name: "Hensmor Oil and Gas",
     icon: tesla,
     iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2019 - Jun 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Supported downstream operations by analyzing supply chain processes, including refining, distribution, and product marketing, to ensure seamless delivery of petroleum products.",
+      "Collaborated with cross-functional teams to optimize operational efficiency and reduce turnaround times in product transportation and distribution.",
+      " Assisted in monitoring and maintaining compliance with industry standards and safety protocols during refining and distribution activities.",
+      "Gained hands-on experience with downstream technologies and industry-specific software, enhancing technical knowledge and problem-solving skills.",
     ],
   },
   {
