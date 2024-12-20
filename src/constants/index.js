@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { firstbank, hensmor, newhorizons, wilson } from "../assets/images";
 import {
   car,
   contact,
@@ -113,7 +113,7 @@ export const experiences = [
   {
     title: "Manufacturing Engineering Assistant",
     company_name: "WILSON Nigeria Limited",
-    icon: starbucks,
+    icon: wilson,
     iconBg: "#accbe1",
     date: "Jan 2018 - Jul 2018",
     points: [
@@ -126,7 +126,7 @@ export const experiences = [
   {
     title: "Oil and Gas Operations Intern",
     company_name: "Hensmor Oil and Gas",
-    icon: tesla,
+    icon: hensmor,
     iconBg: "#fbc3bc",
     date: "Jan 2019 - Jun 2019",
     points: [
@@ -137,29 +137,29 @@ export const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Web Development Student",
+    company_name: "New Horizons",
+    icon: newhorizons,
     iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jul 2021 - Oct 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Mastered foundational and advanced concepts in frontend development, including responsive design, and user interface optimization.",
+      " Developed and deployed dynamic websites using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and seamless user experiences.",
+      " Designed and implemented interactive components using React.js, enhancing the functionality and aesthetics of web pages.",
+      " Applied version control systems like Git to track project changes and facilitate team collaboration.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "IT Operations Assistant",
+    company_name: "First Bank of Nigeria",
+    icon: firstbank,
     iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
+    date: "Nov 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Streamline communication between various teams, including Security Operations and Financial Services, ensuring smooth collaboration and operational efficiency.",
+      "Facilitate software solutions for Microsoft Outlook, enhancing internal workflows and expediting the dissemination of information across departments.",
+      " Provide technical support for field and onsite work alongside senior executives such as the Managing Director and Branch Managers, addressing their technological needs and optimizing operational workflows.",
+      " Design and maintain tools that enable secure and efficient data exchange between regional offices and corporate headquarters.",
     ],
   },
 ];
