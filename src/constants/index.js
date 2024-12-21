@@ -1,4 +1,5 @@
 import { firstbank, hensmor, newhorizons, wilson } from "../assets/images";
+
 import {
   car,
   contact,
