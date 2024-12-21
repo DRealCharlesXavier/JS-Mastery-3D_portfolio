@@ -211,10 +211,10 @@ export const projects = [
   {
     iconUrl: snapgram,
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "3D Interactive Iphone Website",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+      "Built a dynamic 3D iPhone marketing launch website built using React, WebGi (powered by Three.js), and GSAP. The site features stunning animations, a fully interactive 3D model of the iPhone, allowing users to explore and examine it in detail.",
+    link: "https://latestiphonesite.netlify.app",
   },
   {
     iconUrl: estate,
