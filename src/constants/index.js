@@ -187,18 +187,18 @@ export const projects = [
   {
     iconUrl: pricewise,
     theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    name: "YouTube Clone",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "Developed a modern YouTube clone with an auto-updating homepage, multiple channels, personalized suggestions, and seamless navigation for an engaging video streaming experience.",
+    link: "https://bestyoutubeclone.netlify.app",
   },
   {
     iconUrl: threads,
     theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    name: "A Travel guide App",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "Created a beautifully designed and fully responsive travel guide web app that delivers an exceptional user experience across all devices. Featuring stunning UI/UX, offering expert tips, and detailed insights to help you plan and enhance your travel adventures.",
+    link: "https://camp-guide-hilink.netlify.app",
   },
   {
     iconUrl: car,
