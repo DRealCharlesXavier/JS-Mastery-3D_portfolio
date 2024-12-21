@@ -128,7 +128,7 @@ export const experiences = [
     title: "Oil and Gas Operations Intern",
     company_name: "Hensmor Oil and Gas",
     icon: hensmor,
-    iconBg: "#fbc3bc",
+    iconBg: "#7df272",
     date: "Jan 2019 - Jun 2019",
     points: [
       " Supported downstream operations by analyzing supply chain processes, including refining, distribution, and product marketing, to ensure seamless delivery of petroleum products.",
@@ -141,7 +141,7 @@ export const experiences = [
     title: "Web Development Student",
     company_name: "New Horizons",
     icon: newhorizons,
-    iconBg: "#b7e4c7",
+    iconBg: "#8199f5",
     date: "Jul 2021 - Oct 2021",
     points: [
       "Mastered foundational and advanced concepts in frontend development, including responsive design, and user interface optimization.",
@@ -154,7 +154,7 @@ export const experiences = [
     title: "IT Operations Assistant",
     company_name: "First Bank of Nigeria",
     icon: firstbank,
-    iconBg: "#a2d2ff",
+    iconBg: "#f0f257",
     date: "Nov 2023 - Present",
     points: [
       " Streamline communication between various teams, including Security Operations and Financial Services, ensuring smooth collaboration and operational efficiency.",
