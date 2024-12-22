@@ -197,16 +197,16 @@ export const projects = [
     theme: "btn-back-green",
     name: "A Travel guide App",
     description:
-      "Created a beautifully designed and fully responsive travel guide web app that delivers an exceptional user experience across all devices. Featuring stunning UI/UX, offering expert tips, and detailed insights to help you plan and enhance your travel adventures.",
+      "Created a beautifully designed and fully responsive travel guide web app that delivers an exceptional user experience across all devices. Featuring stunning UI/UX, and detailed insights to help you plan and enhance your travel adventures.",
     link: "https://camp-guide-hilink.netlify.app",
   },
   {
     iconUrl: car,
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Immersive 3D Portfolio Website",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      "A visually stunning, fully immersive 3D portfolio website that allows users to explore 360-degree views of 3D models. Built using Three.js, Tailwind CSS, and React, it incorporates multiple animations and follows best practices for seamless user interaction. ",
+    link: "https://newmartinsportfolio.netlify.app",
   },
   {
     iconUrl: snapgram,
@@ -219,17 +219,17 @@ export const projects = [
   {
     iconUrl: estate,
     theme: "btn-back-black",
-    name: "Real-Estate Application",
+    name: "GERICHT Restaurant",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+      "Developed a web application for visually stunning, Michelin-star-worthy restaurant, crafted using React and JavaScript. It features a sleek and responsive design, ensuring a seamless user experience across all devices.",
+    link: "https://simple-restaurant-site.netlify.app",
   },
   {
     iconUrl: summiz,
     theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
+    name: "Nike E-Commerce Store",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "A sleek and modern e-commerce website showcasing an advanced web application. Built with React, utilizing best practices, and styled with Tailwind CSS. The site features a night and day mode, implemented with React for seamless user experience. ",
+    link: "https://nikepg.netlify.app",
   },
 ];
