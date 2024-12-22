@@ -62,7 +62,13 @@ const Projects = () => {
 
       <div className="flex flex-row my-20 gap-16 items-center justify-center">
         {socialLinks.map((socialLink) => (
-          <div className="lg:w-[400px] w-full" key={socialLink.name}>
+          <a
+            href={socialLink.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="lg:w-[400px] w-full"
+            key={socialLink.name}
+          >
             <div className="block-container w-12 h-12">
               <div className="btn-front rounded-xl flex justify-center items-center">
                 <img
@@ -72,7 +78,7 @@ const Projects = () => {
                 />
               </div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
 
