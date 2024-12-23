@@ -19,7 +19,7 @@ const About = () => {
 
       <div>
         <p className="mt-5 flex flex-col gap-3 text-slate-500">
-          Software Engineer based in Nigeria, specialising in building applications and is dedicated to creating and scaling cutting-edge software solutions that empower businesses and enhance customer experiences.
+          Software Engineer based in Nigeria, specialising in building applications, and is dedicated to creating and scaling cutting-edge software solutions that empower businesses and enhance customer experiences.
         </p>
       </div>
 
